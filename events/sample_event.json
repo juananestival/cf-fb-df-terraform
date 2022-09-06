@@ -19,6 +19,6 @@
         "source": "VIRTUAL_AGENT"
       }
     ],
-    "payload": { "telephony": { "caller_id": "+34664004600" } },
+    "payload": { "telephony": { "caller_id": "+34xxxxxxxx" } },
     "languageCode": "en-us"
   }
