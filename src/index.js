@@ -66,6 +66,13 @@ function channelEvaluation(req, res) {
     });
   } else {
     console.log("CHANNEL-TYPE: TEXT");
+    return res.status(200).send({
+      sessionInfo: {
+        parameters: {
+          channel: "chat"
+        },
+      },
+    });
   }
 }
 /*****************************************************************************/
